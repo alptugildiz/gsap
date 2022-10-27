@@ -13,8 +13,9 @@
     <div class="banner">
         <header>
             <div id="typeThing" class="typeThing">|</div>
-            <div class="details">DETAILS</div>
-            <div class="contact">CONTACT</div>
+            <div onmouseover="giveDetails()" onmouseout="leaveDetails()" id="details" class="details">DETAILS</div>
+
+            <div onmouseover="giveContact()" onmouseout="leaveDetails()" class="contact">CONTACT</div>
             <div class="puchase">BUY</div>
         </header>
         <div class="container">
@@ -29,7 +30,7 @@
         </div>
     </div>
 
-    <audio id="myMusic" autoplay loop hidden>
+    <audio id="myMusic" autoplay>
         <source src="./mp3/party.mp3" type="audio/mpeg">
     </audio>
     

@@ -123,4 +123,11 @@ header{
     top: -7px;
     opacity: 1;
 }
-
+.detailInfo{
+    position: absolute;
+    top:10%;
+    width: 240px;
+    padding-top: 20px;
+    font-size: 18px;
+    border-top: 1px solid #91ff00;
+}

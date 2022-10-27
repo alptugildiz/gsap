@@ -112,3 +112,24 @@ setTimeout(() => {
     }, 500);
 }, 2400);
 
+var detail = document.getElementById('details')
+
+var detailInfo = document.createElement('p');
+detailInfo.classList.add('detailInfo');
+detail.appendChild(detailInfo)
+
+
+var giveDetails = () => {
+    detailInfo.innerText = "OCTOBER 30th 11.00PM"
+}
+
+var leaveDetails = () => {
+    detailInfo.innerText = ""
+}
+var giveContact = () => {
+    detailInfo.innerText = "info.klein@phönix.com"
+}
+
+var leaveContact = () => {
+    detailInfo.innerText = ""
+}
